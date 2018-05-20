@@ -1,0 +1,8 @@
+a:link, a:visited {
+	color: darkblue;
+	text-decoration: none;}
+a:hover, a:focus {
+	color: red;
+	text-decoration: none;}
+#header a:hover{	
+	text-decoration: none;}
