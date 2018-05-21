@@ -1,23 +1,23 @@
 h1 {
-	color: black;
+	color: white;
 	text-align: center:
 	font-family: avenir next, helvetica, arial;
-	text-decoration: underline;}
+	text-decoration: none;}
 h3 {
 	text-align: left;
 	font-size: 18px;
 	color: black;}
 h4 {
-	text-decoration: underline;
-	color: black;}
+	text-decoration: none;
+	color: white;}
 
 a:link, a:visited {
-	color: darkblue;
+	color: white;
 	text-decoration: none;}
 
 a:hover, a:focus {
-	color: red;
-	text-decoration: underline;}
+	color: black;
+	text-decoration: none;}
 
 .leftimage {
 	float: center;
@@ -29,7 +29,8 @@ a:hover, a:focus {
 body {
 	margin: 0px;
 	padding: 1px;
-	text-align: center;} 
+	text-align: center;
+	background: white;} 
 
 #container {
 	width: 970px;
@@ -44,20 +45,22 @@ body {
 	border: solid 3px black;
 	color: black;
 	text-align: left;
-	margin-left: 350px;
+	margin-left: 410px;
 	margin-right: 350px;
 	padding: 1px;
-	padding-left: 10px;}
+	padding-left: 10px;
+	background: #D6E3DA;}
 
 #sidebar {
 	float: left;
 	width: 200px;
 	height: 986px;
-	background: url(NaturePatterns05.jpg);
+	background: url(Aerial01.jpg);
 	padding: 30px;
 	text-align: left;
 	font-family: avenir next, helvetica, arial;
-	font-size: 13px;}
+	font-size: 14px;
+	color: lightgray;}
 
 #header {
 	width: 970px;
@@ -65,9 +68,10 @@ body {
 	margin-right: 235px;
 	text-align: center;
 	border: solid 3px black;
-	background: #D9C4C5;
+	background: #D6E3DA;
 	margin-bottom: 10px;
-	font-family: avenir next, helvetica, arial;}
+	font-family: avenir next, helvetica, arial;
+	color: black;}
 
 #footer {
 	margin-top: 10px;
@@ -76,7 +80,7 @@ body {
 	margin-left: 200px;
 	margin-right: 200px;
 	text-align: center;
-	background: #D9C4C5;
+	background: #D6E3DA;
 	color: black;}
 
 .clearFloat {

@@ -1,49 +1,55 @@
 a:link, a:visited {
-	color: darkblue;
+	color: #D6E3DA;
 	text-decoration: none;}
 a:hover, a:focus {
-	color: red;
-	text-decoration: underline;}
+	color: white;
+	text-decoration: none;}
 #container {
 	background: white;
 	text-align: left;
 	font-family: avenir next, helvetica, arial;}
 h3 {
 	text-align: center;
-	font-size: 24px;}
-#header {
-	width: 1050px;
-	height: 100px;
-	text-align: center;
-	background: #D9C4C5;
-	border: solid 3px black;
-	margin-bottom: 0px;
-	margin-left: 200px;
-	margin-right: 200px;
-	font-family: avenir next, helvetica, arial;}
+	font-size: 24px;
+	font-family: andale mono, avenir next, helvetica;}
+	}
+body {
+	background: #D6E3DA;}
 
-#mainContent {
-	width: 1050px;
-	height: 400px;
-	background: url(NaturePatterns05.jpg);
+#header {
+	width: 970px;
+	height: 100px;
+	margin-bottom: 4px;
+	margin-left: 50px;
+	margin-right: 50px;
 	text-align: center;
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	background: white;
+	border: solid 3px black;
+	font-family: avenir next, helvetica, arial;
 	font-size: 20px;}
 
-#footer {
-	width: 1050px;
-	height: 20px;
-	margin-left: 200px;
-	margin-right: 200px;
+#mainContent {
+	width: 970px;
+	height: 250px;
+	margin-bottom: 4px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background: url(Aerial01.jpg);
 	text-align: center;
-	background: #D9C4C5;
+	font-size: 100px;
+	border: solid 3px #D6E3DA;
+	padding-left: 0px;
+	padding-top: 2px;
+	padding-bottom: 150px;
+	color: white;}
+
+#footer {
+	width: 970px;
+	height: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	padding-top: 10px;
+	background: white;
 	border: solid 3px black;
 	color: black;}
-
-.clearFloat {
-	clear: both;}
